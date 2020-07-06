@@ -1,4 +1,5 @@
-scl enable devtoolset-7
+#!/bin/bash
+source scl_source enable devtoolset-7
 mkdir -p build
 cd build
 cmake ../googlemock -DBUILD_SHARED_LIBS=ON
